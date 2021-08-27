@@ -1,0 +1,42 @@
+{
+  "name": "react-drag-n-drop-to-s3",
+  "version": "0.1.0",
+  "description": "Drag and drop files to upload them to S3",
+  "main": "dist/index.js",
+  "scripts": {
+    "precommit": "lint-staged",
+    "build": "babel src -d dist",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggregoire/react-drag-n-drop-to-s3.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "drag",
+    "drop",
+    "upload",
+    "files",
+    "aws",
+    "s3",
+    "bucket"
+  ],
+  "author": "Guillaume Grégoire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ggregoire/react-drag-n-drop-to-s3/issues"
+  },
+  "homepage": "https://github.com/ggregoire/react-drag-n-drop-to-s3#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "husky": "^1.0.1",
+    "lint-staged": "^7.3.0",
+    "prettier": "^1.14.3"
+  }
+}
