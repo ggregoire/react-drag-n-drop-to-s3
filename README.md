@@ -1,11 +1,13 @@
 # react-drag-n-drop-to-s3
 
-React component to drag and drop files and upload them to AWS S3. Based on [react-dropzone](https://github.com/react-dropzone/react-dropzone) and [react-s3-uploader](https://github.com/odysseyscience/react-s3-uploader).
+React component to drag and drop files and upload them to AWS S3.
+
+Based on [react-dropzone](https://github.com/react-dropzone/react-dropzone) and [react-s3-uploader/s3upload.js](https://github.com/odysseyscience/react-s3-uploader/s3upload.js).
 
 ## Install
 
-```
-$ npm install react-drag-n-drop-to-s3 react-dropzone
+```bash
+npm install react-drag-n-drop-to-s3 react-dropzone
 ```
 
 ## Example
